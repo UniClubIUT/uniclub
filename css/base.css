@@ -1,0 +1,122 @@
+:root {
+    --main: #171717;
+    --extra: #EB6440;
+    --extra-bg: #1B1B1B;
+    --title: linear-gradient(180deg, #EB6440 0%, #FF275B 100%);
+    --text: #FFFFFF;
+    --footer-rights: #71717A;
+    --additional: #555555;
+    --join: #323232;
+
+    --indent-lg: 128px;
+    --indent-md: 64px;
+    --indent-sm: 32px;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    src: url("../fonts/Montserrat/Montserrat-Black.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.title {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+a.active {
+    color: var(--extra);
+}
+
+li {
+    list-style: none;
+}
+
+p, ul, ol {
+    margin-bottom: 0;
+}
+
+button {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+body {
+    background: var(--main);
+    color: var(--text);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
