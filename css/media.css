@@ -1,55 +1,44 @@
 @media (max-width: 1400px) {
-    /* PAGE MAIN start */
-    /* section.intro start */
+    /* section.intro & section.who start */
 
-    .intro-img1 {
-        /* width: 480px;
-        height: 266px; 
-        left: -8%; */
+    .intro-img1,
+    .who-img1 {
         width: 440px;
         height: 250px;
         left: -14%;
     }
 
-    .intro-img4 {
-        /* width: 480px;
-        height: 266px;
-        right: -8%; */
+    .intro-img4,
+    .who-img4 {
         width: 440px;
         height: 250px;
         right: -14%;
     }
 
-    .intro-img5 {
-        /* width: 500px;
-        height: 365px;
-        left: -6%; */
+    .intro-img5,
+    .who-img5 {
         width: 440px;
         height: 325px;
         left: -10%;
     }
 
-    .intro-img2 {
-        /* width: 500px;
-        height: 365px;
-        left: -6%; */
+    .intro-img2,
+    .who-img2 {
         width: 440px;
         height: 325px;
         right: -10%;
     }
 
-    .intro-img3 {
-        /* width: 580px;
-        height: 200px; */
+    .intro-img3,
+    .who-img3 {
         width: 500px;
         height: 180px;
     }
 
-    .intro-content {
-        /* padding-bottom: 300px; */
+    .intro-content,
+    .who-content {
         padding-bottom: 230px;
     }
 
-    /* section.intro end */
-    /* PAGE MAIN end */
+    /* section.intro & section.who end */
 }
