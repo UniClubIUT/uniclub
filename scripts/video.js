@@ -7,7 +7,7 @@ const videoOverlay = document.querySelector(".video-overlay"),
 let overlayShow = function () {
     videoBlock.insertAdjacentHTML(
         "afterbegin",
-        `<iframe width="800" height="475"
+        `<iframe width="925" height="550"
             src="https://www.youtube.com/embed/EDIFIBFRoXA?rel=0&modestbranding=1&autoplay=1"
             frameborder="0" allowfullscreen>
         </iframe>`
