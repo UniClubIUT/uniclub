@@ -1,12 +1,33 @@
 /* header start */
 .header {
-    padding: var(--indent-md) 0;
+    padding: var(--indent-sm) 0;
+    z-index: 1;
+    transition: .3s;
+}
+
+.header.fixed {
+    position: sticky;
+    top: 0;
+}
+
+.header.hide {
+    transition: .5s;
+    transform: translateY(-100%);
+    visibility: hidden;
 }
 
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: var(--main);
+    border-radius: 32px;
+    padding: 32px 0;
+    transition: .1s;
+}
+
+.header.fixed > .nav {
+    box-shadow: #303030b5 0px 0px 16px;
 }
 
 .nav-logo img {
