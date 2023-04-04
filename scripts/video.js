@@ -2,13 +2,14 @@ const videoOverlay = document.querySelector(".video-overlay"),
     watchBtn = document.querySelector(".watch_video-btn"),
     closeBtn = document.querySelector(".video-close"),
     body = document.querySelector("body"),
-    videoBlock = document.querySelector(".video-overlay .video");
+    videoBlock = document.querySelector(".video-overlay .video"),
+    videoLink = videoBlock.getAttribute("data-video-src");
 
 let overlayShow = function () {
     videoBlock.insertAdjacentHTML(
         "afterbegin",
         `<iframe width="925" height="550"
-            src="https://www.youtube.com/embed/EDIFIBFRoXA?rel=0&modestbranding=1&autoplay=1"
+            src="${videoLink}?rel=0&modestbranding=1&autoplay=1"
             frameborder="0" allowfullscreen>
         </iframe>`
     );
