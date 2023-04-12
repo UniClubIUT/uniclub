@@ -1346,3 +1346,143 @@ a.footer-logo {
     margin-bottom: var(--indent-lg);
 }
 /* PAGE 404 end */
+
+/* PAGE NEWS-POST start */
+
+.post {
+    margin-bottom: var(--indent-lg);
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-info {
+    margin: var(--indent-md) 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--indent-sm);
+}
+
+.post-date,
+.post-average_time {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--additional);
+}
+
+.post-circle {
+    font-size: 10px;
+    color: var(--additional);
+    margin: 0 5px;
+}
+
+.post-title {
+    text-align: center;
+    margin-bottom: var(--indent-sm);
+}
+
+.post-tags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-tag:not(:last-of-type) {
+    margin-right: var(--indent-sm);
+}
+
+.post-tag {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--additional);
+}
+
+.post-title,
+.post-title > span {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 117%;
+    color: var(--text);
+}
+
+.post-title > span {
+    color: var(--extra);
+}
+
+.post-img {
+    width: 1028px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 96px;
+}
+
+.post-descr {
+    max-width: 760px;
+}
+
+.post-text {
+    margin: var(--indent-sm) 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 135%;
+    color: var(--text);
+}
+
+.post-extra_title {
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--extra);
+}
+
+.post-text > span {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--extra);
+}
+
+.post-lists {
+    padding: 0 var(--indent-sm);
+}
+
+.post-list {
+    list-style: disc;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--text);
+    line-height: 135%;
+}
+
+.post-list:not(:last-of-type) {
+    margin-bottom: var(--indent-sm);
+}
+
+.read {
+    padding-top: var(--indent-sm);
+}
+
+.read-title {
+    margin-bottom: var(--indent-md);
+    color: var(--text);
+    text-align: center;
+}
+
+.read-title,
+.read-title > span {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.read-title > span {
+    color: var(--extra);
+}
+
+/* PAGE NEWS-POST end */
