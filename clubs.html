@@ -74,6 +74,11 @@
             <path
                 d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
         </symbol>
+
+        <symbol id="icon-person" viewBox="0 0 12 12">
+            <path
+                d="M6.00008 0.666992C6.70733 0.666992 7.3856 0.947944 7.8857 1.44804C8.3858 1.94814 8.66675 2.62641 8.66675 3.33366C8.66675 4.0409 8.3858 4.71918 7.8857 5.21928C7.3856 5.71937 6.70733 6.00033 6.00008 6.00033C5.29284 6.00033 4.61456 5.71937 4.11446 5.21928C3.61437 4.71918 3.33341 4.0409 3.33341 3.33366C3.33341 2.62641 3.61437 1.94814 4.11446 1.44804C4.61456 0.947944 5.29284 0.666992 6.00008 0.666992ZM6.00008 7.33366C8.94675 7.33366 11.3334 8.52699 11.3334 10.0003V11.3337H0.666748V10.0003C0.666748 8.52699 3.05341 7.33366 6.00008 7.33366Z" />
+        </symbol>
     </svg>
 
     <header class="header">
@@ -108,14 +113,242 @@
     </header>
 
     <main>
-        <section class="error404">
+        <section class="clubs">
             <div class="container">
-                <div class="error404-descr">
-                    <h2 class="error404-title">404!</h2>
-                    <p class="error404-text">This page is currently unavailable...</p>
-                    <a href="index.html" class="error404-btn">Go back</a>
+                <h2 class="clubs-title title">Clubs</h2>
+
+                <div class="clubs-filters">
+                    <div class="clubs-filters__search">
+                        <input type="search" placeholder="Search clubs">
+
+                        <div class="clubs-filters__btn">
+                            <svg width="20px" height="20px">
+                                <use href="#icon-search"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <button class="clubs-filters__categories">
+                        <svg width="20px" height="20px">
+                            <use href="#icon-chevron_down"></use>
+                        </svg>
+                        <p class="clubs-filters__sort">Categories</p>
+                    </button>
+
                 </div>
-                <img src="images/404.png" alt="Error 404" class="error404-img">
+
+                <div class="clubs-cards">
+                    <div class="clubs-card">
+                        <img src="images/intro-photos/topClubs1.jpg" alt="" class="clubs-card__img">
+
+                        <div class="clubs-card__descr">
+                            <div class="clubs-card__title">
+                                <h3 class="clubs-card__name">Basketball Club</h3>
+                                <span class="clubs-card__person">
+                                    <svg width="16px" height="16px">
+                                        <use href="#icon-person"></use>
+                                    </svg>
+                                    47
+                                </span>
+                            </div>
+
+                            <p class="clubs-card__text">A university basketball club is a group of students who play
+                                basketball, compete, and socialize. It promotes teamwork, leadership, and sportsmanship,
+                                and
+                                offers a fun way to stay engaged in college life.</p>
+                            <a href="#!" class="clubs-card__button joined">
+                                <svg width="35" height="35">
+                                    <use href="#icon-check"></use>
+                                </svg>
+                                Joined</a>
+                        </div>
+                    </div>
+                    <div class="clubs-card">
+                        <img src="images/intro-photos/topClubs2.jpg" alt="" class="clubs-card__img">
+
+                        <div class="clubs-card__descr">
+                            <div class="clubs-card__title">
+                                <h3 class="clubs-card__name">Chess Club</h3>
+                                <span class="clubs-card__person">
+                                    <svg width="16px" height="16px">
+                                        <use href="#icon-person"></use>
+                                    </svg>
+                                    82
+                                </span>
+                            </div>
+
+                            <p class="clubs-card__text">A university chess club is a group of students who meet to play
+                                chess, improve their skills and participate in competitions. It offers a space for
+                                critical thinking, strategy development and socializing with other chess enthusiasts on
+                                campus.</p>
+
+                            <a href="clubs.html" class="clubs-card__button">Join</a>
+                        </div>
+                    </div>
+                    <div class="clubs-card">
+                        <img src="images/intro-photos/topClubs3.jpg" alt="" class="clubs-card__img">
+
+                        <div class="clubs-card__descr">
+                            <div class="clubs-card__title">
+                                <h3 class="clubs-card__name">CS Club</h3>
+                                <span class="clubs-card__person">
+                                    <svg width="16px" height="16px">
+                                        <use href="#icon-person"></use>
+                                    </svg>
+                                    26
+                                </span>
+                            </div>
+                            <p class="clubs-card__text">A club at university that teaches cyber security through
+                                hands-on experience, workshops, and networking events, while also helping students
+                                connect with industry professionals for career opportunities.</p>
+                            <a href="clubs.html" class="clubs-card__button">Join</a>
+                        </div>
+                    </div>
+
+                    <div class="clubs-card">
+                        <img src="images/intro-photos/topClubs2.jpg" alt="" class="clubs-card__img">
+
+                        <div class="clubs-card__descr">
+                            <div class="clubs-card__title">
+                                <h3 class="clubs-card__name">Chess Club</h3>
+                                <span class="clubs-card__person">
+                                    <svg width="16px" height="16px">
+                                        <use href="#icon-person"></use>
+                                    </svg>
+                                    75
+                                </span>
+                            </div>
+
+                            <p class="clubs-card__text">A university chess club is a group of students who meet to play
+                                chess, improve their skills and participate in competitions. It offers a space for
+                                critical thinking, strategy development and socializing with other chess enthusiasts on
+                                campus.</p>
+
+                            <a href="clubs.html" class="clubs-card__button">Join</a>
+                        </div>
+                    </div>
+                    <div class="clubs-card">
+                        <img src="images/intro-photos/topClubs3.jpg" alt="" class="clubs-card__img">
+
+                        <div class="clubs-card__descr">
+                            <div class="clubs-card__title">
+                                <h3 class="clubs-card__name">CS Club</h3>
+                                <span class="clubs-card__person">
+                                    <svg width="16px" height="16px">
+                                        <use href="#icon-person"></use>
+                                    </svg>
+                                    59
+                                </span>
+                            </div>
+                            <p class="clubs-card__text">A club at university that teaches cyber security through
+                                hands-on experience, workshops, and networking events, while also helping students
+                                connect with industry professionals for career opportunities.</p>
+                            <a href="clubs.html" class="clubs-card__button">Join</a>
+                        </div>
+                    </div>
+                    <div class="clubs-card">
+                        <img src="images/intro-photos/topClubs1.jpg" alt="" class="clubs-card__img">
+
+                        <div class="clubs-card__descr">
+                            <div class="clubs-card__title">
+                                <h3 class="clubs-card__name">Basketball Club</h3>
+                                <span class="clubs-card__person">
+                                    <svg width="16px" height="16px">
+                                        <use href="#icon-person"></use>
+                                    </svg>
+                                    13
+                                </span>
+                            </div>
+
+                            <p class="clubs-card__text">A university basketball club is a group of students who play
+                                basketball, compete, and socialize. It promotes teamwork, leadership, and sportsmanship,
+                                and
+                                offers a fun way to stay engaged in college life.</p>
+                            <a href="#!" class="clubs-card__button joined">
+                                <svg width="35" height="35">
+                                    <use href="#icon-check"></use>
+                                </svg>
+                                Joined</a>
+                        </div>
+                    </div>
+
+                    <div class="clubs-card">
+                        <img src="images/intro-photos/topClubs2.jpg" alt="" class="clubs-card__img">
+
+                        <div class="clubs-card__descr">
+                            <div class="clubs-card__title">
+                                <h3 class="clubs-card__name">Chess Club</h3>
+                                <span class="clubs-card__person">
+                                    <svg width="16px" height="16px">
+                                        <use href="#icon-person"></use>
+                                    </svg>
+                                    17
+                                </span>
+                            </div>
+
+                            <p class="clubs-card__text">A university chess club is a group of students who meet to play
+                                chess, improve their skills and participate in competitions. It offers a space for
+                                critical thinking, strategy development and socializing with other chess enthusiasts on
+                                campus.</p>
+
+                            <a href="clubs.html" class="clubs-card__button">Join</a>
+                        </div>
+                    </div>
+                    <div class="clubs-card">
+                        <img src="images/intro-photos/topClubs1.jpg" alt="" class="clubs-card__img">
+
+                        <div class="clubs-card__descr">
+                            <div class="clubs-card__title">
+                                <h3 class="clubs-card__name">Basketball Club</h3>
+                                <span class="clubs-card__person">
+                                    <svg width="16px" height="16px">
+                                        <use href="#icon-person"></use>
+                                    </svg>
+                                    30
+                                </span>
+                            </div>
+
+                            <p class="clubs-card__text">A university basketball club is a group of students who play
+                                basketball, compete, and socialize. It promotes teamwork, leadership, and sportsmanship,
+                                and
+                                offers a fun way to stay engaged in college life.</p>
+                            <a href="#!" class="clubs-card__button joined">
+                                <svg width="35" height="35">
+                                    <use href="#icon-check"></use>
+                                </svg>
+                                Joined</a>
+                        </div>
+                    </div>
+                    <div class="clubs-card">
+                        <img src="images/intro-photos/topClubs3.jpg" alt="" class="clubs-card__img">
+
+                        <div class="clubs-card__descr">
+                            <div class="clubs-card__title">
+                                <h3 class="clubs-card__name">CS Club</h3>
+                                <span class="clubs-card__person">
+                                    <svg width="16px" height="16px">
+                                        <use href="#icon-person"></use>
+                                    </svg>
+                                    64
+                                </span>
+                            </div>
+                            <p class="clubs-card__text">A club at university that teaches cyber security through
+                                hands-on experience, workshops, and networking events, while also helping students
+                                connect with industry professionals for career opportunities.</p>
+                            <a href="clubs.html" class="clubs-card__button">Join</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clubs-controls">
+                    <a href="#!" class="clubs-controls__btn active">1</a>
+                    <a href="#!" class="clubs-controls__btn">2</a>
+                    <a href="#!" class="clubs-controls__btn">3</a>
+                    <a href="#!" class="clubs-controls__btn">4</a>
+                    <a href="#!" class="clubs-controls__btn">5</a>
+                    <p title="6, 7, 8, 9, 10, 11, 12">...</p>
+                    <a href="#!" class="clubs-controls__btn">13</a>
+                </div>
             </div>
         </section>
     </main>
